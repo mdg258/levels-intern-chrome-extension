@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Levels.fyi Internship Scraper",
+  "version": "1.0",
+  "description": "Download levels.fyi/internships information as a CSV file.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "host_permissions": [
+    "https://www.levels.fyi/internships/"
+  ]
+}
